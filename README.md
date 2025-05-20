@@ -1,10 +1,7 @@
 # Blockchain-Anomaly-Detection
 
-This project focuses on identifying malicious transactions in blockchain networks using machine learning techniques. Leveraging Bitcoin transaction data (30M+ entries), the goal is to detect anomalies such as fraudulent activities by analyzing transactional patterns.
+This project employs machine learning to detect malicious transactions in blockchain networks, using Bitcoin transaction data (30M+ entries) and Python's PyOD library. Algorithms like K-means, HBOS, CBLOF, and Isolation Forest were implemented to identify anomalies, addressing class imbalance via SMOTE for enhanced minority-class detection. 
 
-Key Features:
-Algorithms: Implemented K-means (baseline), Histogram-Based Outlier Detection (HBOS), Clustering-Based Local Outlier Factor (CBLOF), and Isolation Forest for anomaly detection.
+The analysis optimized computational efficiency and accuracy, revealing trade-offs between model complexity and performance. Results demonstrate robust anomaly detection capabilities, offering insights into blockchain security vulnerabilities. Future work includes real-time detection systems and deep learning integration. Built with Python, Pandas, and Scikit-learn, this project highlights data science's role in fortifying decentralized systems against cyber threats. 
 
-Tools: Utilized Python’s PyOD library for outlier detection and SMOTE to address class imbalance (only 108 malicious samples).
-
-Metrics: Evaluated models using accuracy, precision, recall, F1-score, and computational efficiency.
+Contributions welcome!
